@@ -1,0 +1,11 @@
+bin
+.classpath
+.project
+.settings
+.clover
+.externalToolBuilders
+target
+.class
+.idea
+*.iml
+.DS_Store
