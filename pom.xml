@@ -156,6 +156,7 @@
     <module>httpclient-cache</module>
     <module>httpclient-win</module>
     <module>httpclient-osgi</module>
+    <module>httpclient-test</module>
   </modules>
 
   <build>
