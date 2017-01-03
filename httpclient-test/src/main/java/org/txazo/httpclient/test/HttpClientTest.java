@@ -55,7 +55,6 @@ public class HttpClientTest {
     private static SSLConnectionSocketFactory buildSSLSocketFactory() throws Exception {
         SSLContext sslContext = SSLContexts.custom().loadTrustMaterial(null, new TrustStrategy() {
 
-            @Override
             public boolean isTrusted(X509Certificate[] x509Certificates, String s) throws CertificateException {
                 return true;
             }
